@@ -1,0 +1,94 @@
+body {
+    background-color: black;
+    font-family: Cascadia Code, sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+  }
+  
+  header {
+    position: sticky;
+    top: 0;
+    background-color: darkblue;
+    margin: 0;
+    padding: 5px 0 5px 10px;
+    border-radius: 0 0 5px 5px;
+    box-sizing: border-box;
+  }
+  
+  div.header {
+    background-color: black;
+    margin: 0px;
+    padding: 5px 0 10px 20px;
+    border-radius: 10px 0 0 10px;
+    border: 1px solid whitesmoke;
+    box-shadow: 0px 0px 30px rgba(0, 0, 255, 1);
+    box-sizing: border-box;
+  }
+  
+  h1, h2, h3 {
+    margin: 0 auto;
+  }
+  
+  nav ul {
+    background-color: dodgerblue;
+    display: flex;
+    justify-content: space-around;
+    width: 70%;
+    margin: 10px auto;
+    padding: 5px;
+    min-width: 400px;
+    border-radius: 10px;
+    box-sizing: border-box;
+  }
+  
+  nav a {
+    color: whitesmoke;
+    text-decoration: none;
+    border: 2px groove darkblue;
+    padding: 2px;
+  }
+  
+  a:hover {
+    color: darkblue;
+    border: 2px solid whitesmoke;
+  }
+  
+  section {
+    background-color: darkblue;
+    margin: 30px 0 20px 40px;
+    padding: 20px 10px 20px 30px;
+    border-radius: 10px 0 0 10px;
+    box-sizing: border-box;
+  }
+  
+  h3 {
+    text-align: center;
+  }
+  
+  img {
+    float: left;
+    width: 30%;
+    padding: 10px;
+    min-width: 300px;
+  }
+  
+  h3:hover,
+  img:hover {
+    cursor: pointer;
+  }
+  
+  footer {
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+    box-sizing: border-box;
+  }
+  
+  footer h4 {
+    border: 2px inset white;
+    margin: 5px;
+    padding: 5px;
+  }
